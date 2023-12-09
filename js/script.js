@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function addTodo() {
   // gunakan const untuk variabel yang tidak berubah
-  const textTodo = document.getElementById("title").value.trim(); // hapus spasi ekstra
-  const timestamp = Date.now(); // gunakan timestamp saat ini
+  const textTodo = document.getElementById("title").value.trim();
+  const timestamp = document.getElementById("date").value;
   const generatedID = generateId();
   const todoObject = generateTodoObject(
     generatedID,
