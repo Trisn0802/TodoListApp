@@ -16,6 +16,8 @@ header {
   background: #222;
   padding: 16px;
   color: white;
+  position: sticky;
+  top: 0;
 }
 
 .wrapper {
